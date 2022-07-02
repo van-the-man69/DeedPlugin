@@ -1,0 +1,72 @@
+command onestorydeed(){
+    permission = "onestorydeed";
+    allowedCaller = "player";
+    execute(){
+      player.give(41025);
+      player.message("you have been giving a one story house deed");
+    }
+}
+command twostorydeed(){
+    permission = "twostorydeed";
+    allowedCaller = "player";
+    execute(){
+      player.give(41026);
+      player.message("you have been giving a two storyhouse deed");
+    }
+}
+command mansiondeed(){
+    permission = "mansiondeed";
+    allowedCaller = "player";
+    execute(){
+      player.give(41032);
+      player.message("you have been giving a mansion deed");
+    }
+}
+command shopdeed(){
+    permission = "shopdeed";
+    allowedCaller = "player";
+    execute(){
+      player.give(41032);
+      player.message("you have been giving a shop deed");
+    }
+}
+command hangardeed(){
+    permission = "hangardeed";
+    allowedCaller = "player";
+    execute(){
+      player.give(41031);
+      player.message("you have been giving a hangar deed");
+    }
+}
+command garagedeed(){
+    permission = "garagedeed";
+    allowedCaller = "player";
+    execute(){
+      player.give(41030);
+      player.message("you have been giving a garage deed");
+    }
+}
+command barndeed(){
+    permission = "barndeed";
+    allowedCaller = "player";
+    execute(){
+      player.give(41029);
+      player.message("you have been giving a barn deed");
+    }
+}
+command factorydeed(){
+    permission = "factorydeed";
+    allowedCaller = "player";
+    execute(){
+      player.give(41028);
+      player.message("you have been giving a factory deed");
+    }
+}
+command apartmentdeed(){
+    permission = "apartmentdeed";
+    allowedCaller = "player";
+    execute(){
+      player.give(41027);
+      player.message("you have been giving a apartment deed");
+    }
+}
